@@ -3,9 +3,48 @@
 <head>
 	<title>backbone game</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|Signika:400,600' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<div>
+		 <span id="loader">Loading...</span>
+	</div>
+	<main> 
+		
+		<!-- Main menu screen -->
+		<div id="main-menu">
+			<h1>Main Menu</h1>
+			
+				<div class="menu-options">
+					<a href="#play"><input type="button" value="Play"></a>
+				</div>
+				<div class="menu-options">
+					<a href="#leaderboard"><input type="button" value="High Scores"></a>
+				</div>
+				<div class="menu-options">
+					<a href="#settings"><input type="button" value="Settings"></a>
+				</div>
+			
+		</div>
 
+
+		<!-- Menu Options Screens -->
+		<div id="game-screen" class="screen">This is the game screen</div>
+		<div id="leaderboard" class="screen">
+			<h2>High Scores</h2>
+			<p>1. </p>
+			<p>2. </p>
+			<p>3. </p>
+		</div>
+		<div id="settings" class="screen">
+			<h2>Settings</h2>
+		</div>
+		<div id="error" class="screen">
+			<h2>Page Not Found</h2>
+		</div>
+
+	</main>
+	
 
 	<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
 	<script type="text/javascript" src="bower_components/backbone/backbone-min.js"></script>
