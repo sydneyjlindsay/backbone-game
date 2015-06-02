@@ -1,29 +1,133 @@
+#loading-message {
+	text-align: center;
+	padding-top: 25px;
+}
+#loader {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	text-shadow: 0px 0px 12px #dd6655;
+	margin: 3em;
+	padding: 5px;
+	font-size: 2em;
+    width:15em;
+    height:4.5em;
+    background: white;
+    border:3px solid #F2ADA2;
+    border-radius: 2em;     
+}
+
 body {
 	font-family: 'Signika', sans-serif;
+	padding-top: 0px;
+}
+
+header {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 3.25em;
+	text-shadow: 0px 0px 10px #dd6655;
+	margin-bottom: 14px;
+	padding-top: 10px;
+	
 }
 
 h1 {
 	text-align: center;
+	font-size: 2.5em;
+	text-shadow: 0px 0px 15px #cccccc;
+	margin-bottom: 0px;
+	margin-top: 0;
+
 }
 
-#main-menu {
+h2 {
+	text-align: center;
+	text-shadow: 0px 0px 15px #cccccc;
+	font-size: 2em;
+	margin-bottom: 40px;
+}
+
+li {
+	margin: 10px;
 	text-align: center;
 }
 
-#main-menu ul {
-	list-style: none;
-	border: 0;
-	margin: 0 auto;
+#leaderboard {
+	text-align: center;
+	height: 500px;
 }
 
-#main-menu input {
-	margin: 1em;
+#game-screen {
+	height: 500px;
+}
+
+.leader-name {
+	float: left;
+	margin-left: 40%;
+	text-align: right;	
+}
+
+.leader-score {
+	float: right;
+	margin-right: 40%;
+	text-align: center;
+}
+
+.leader-name span {
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+.leader-score span {
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+.leader-name p {
 	font-family: 'Shadows Into Light', cursive;
-	color: white;
-    width:12em;
-    height:2.8em;
-    background:rgba(#cccccc);
-    border:3px solid #eedddd;
-    -webkit-border-radius:2em;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.leader-score p {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+.screen {
+	border-top: 35px solid #F2ADA2;
+	border-bottom: 35px solid #F2ADA2;
+}
+#main-menu {
+	height: 500px;
+	text-align: center;
+	border-top: 35px solid #F2ADA2;
+	border-bottom: 35px solid #F2ADA2;
+}
+
+#settings {
+	height: 500px;
+}
+
+
+#main-menu input {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	text-shadow: 0px 0px 12px #dd6655;
+	margin: 1em;
+	font-size: 1.5em;
+    width:10em;
+    height:2.5em;
+    background: white;
+    border:3px solid #F2ADA2;
     border-radius: 2em;     
 }
+
+
+
+#game-screen {
+	text-align: center;
+}
+
